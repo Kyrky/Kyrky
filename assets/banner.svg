@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Yaroslav Romaniuk, Full-Stack Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="55%" stop-color="#101a33"/>
+      <stop offset="100%" stop-color="#0a1626"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#7dd3fc" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <circle cx="1010" cy="120" r="260" fill="url(#glow)"/>
+  <rect x="0" y="0" width="6" height="300" fill="url(#accent)"/>
+
+  <g font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif">
+    <text x="72" y="118" fill="#f8fafc" font-size="54" font-weight="700" letter-spacing="0.5">Yaroslav Romaniuk</text>
+    <text x="72" y="166" fill="#22d3ee" font-size="26" font-weight="600" letter-spacing="3">FULL-STACK DEVELOPER</text>
+    <text x="72" y="212" fill="#94a3b8" font-size="20">3 years of commercial experience: fintech, retail POS, ERP/CRM</text>
+
+    <g font-size="16" fill="#cbd5e1">
+      <g>
+        <rect x="72" y="238" width="112" height="32" rx="16" fill="#1e293b" stroke="#334155"/>
+        <text x="128" y="259" text-anchor="middle">.NET</text>
+      </g>
+      <g>
+        <rect x="196" y="238" width="112" height="32" rx="16" fill="#1e293b" stroke="#334155"/>
+        <text x="252" y="259" text-anchor="middle">Angular</text>
+      </g>
+      <g>
+        <rect x="320" y="238" width="112" height="32" rx="16" fill="#1e293b" stroke="#334155"/>
+        <text x="376" y="259" text-anchor="middle">React</text>
+      </g>
+      <g>
+        <rect x="444" y="238" width="112" height="32" rx="16" fill="#1e293b" stroke="#334155"/>
+        <text x="500" y="259" text-anchor="middle">Next.js</text>
+      </g>
+      <g>
+        <rect x="568" y="238" width="136" height="32" rx="16" fill="#1e293b" stroke="#334155"/>
+        <text x="636" y="259" text-anchor="middle">TypeScript</text>
+      </g>
+    </g>
+
+    <g opacity="0.85">
+      <rect x="820" y="70" width="320" height="170" rx="14" fill="#0f172a" stroke="#1e293b"/>
+      <circle cx="844" cy="94" r="6" fill="#ef4444"/>
+      <circle cx="864" cy="94" r="6" fill="#f59e0b"/>
+      <circle cx="884" cy="94" r="6" fill="#22c55e"/>
+      <g font-family="Consolas, Menlo, monospace" font-size="15">
+        <text x="844" y="132" fill="#64748b">var</text>
+        <text x="880" y="132" fill="#e2e8f0">dev =</text>
+        <text x="936" y="132" fill="#22d3ee">"fullstack"</text>
+        <text x="844" y="160" fill="#64748b">var</text>
+        <text x="880" y="160" fill="#e2e8f0">api =</text>
+        <text x="936" y="160" fill="#a5b4fc">"ASP.NET"</text>
+        <text x="844" y="188" fill="#64748b">var</text>
+        <text x="880" y="188" fill="#e2e8f0">ui  =</text>
+        <text x="936" y="188" fill="#a5b4fc">"Angular"</text>
+        <text x="844" y="216" fill="#475569">// ship it</text>
+      </g>
+    </g>
+  </g>
+</svg>
