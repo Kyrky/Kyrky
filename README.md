@@ -56,9 +56,10 @@ I take features end-to-end: database schema, API, then the UI.
 
 ### GitHub
 
+Most of my work lives in private company repositories, so the public side here is mainly study and side projects.
+
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=Kyrky&show_icons=true&hide_border=true&theme=tokyonight&count_private=true&include_all_commits=true" alt="GitHub stats" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kyrky&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" alt="Top languages" height="165">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kyrky&layout=compact&hide_border=true&theme=tokyonight&langs_count=6&hide=html,css,scss" alt="Top languages" height="165">
 </p>
 
 ### Currently
